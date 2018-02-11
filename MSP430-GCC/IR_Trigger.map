@@ -1,0 +1,625 @@
+Archive member included because of file (symbol)
+
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+                              main.o (__mspabi_mpyi)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(epilogue.o)
+                              main.o (__mspabi_func_epilog_3)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(slli.o)
+                              main.o (__mspabi_slli)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(srli.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o (__mspabi_srli_15)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o (__crt0_init_bss)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o (__crt0_movedata)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o (__crt0_call_init_then_main)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o) (memmove)
+m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+                              m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+value               0x2               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SFR              0x00000000         0x00000010
+PERIPHERAL_8BIT  0x00000010         0x000000f0
+PERIPHERAL_16BIT 0x00000100         0x00000100
+RAM              0x00000200         0x00000200
+INFOMEM          0x00001000         0x00000100
+INFOA            0x000010c0         0x00000040
+INFOB            0x00001080         0x00000040
+INFOC            0x00001040         0x00000040
+INFOD            0x00001000         0x00000040
+ROM              0x0000c000         0x00003fe0
+VECT1            0x0000ffe0         0x00000002
+VECT2            0x0000ffe2         0x00000002
+VECT3            0x0000ffe4         0x00000002
+VECT4            0x0000ffe6         0x00000002
+VECT5            0x0000ffe8         0x00000002
+VECT6            0x0000ffea         0x00000002
+VECT7            0x0000ffec         0x00000002
+VECT8            0x0000ffee         0x00000002
+VECT9            0x0000fff0         0x00000002
+VECT10           0x0000fff2         0x00000002
+VECT11           0x0000fff4         0x00000002
+VECT12           0x0000fff6         0x00000002
+VECT13           0x0000fff8         0x00000002
+VECT14           0x0000fffa         0x00000002
+VECT15           0x0000fffc         0x00000002
+RESETVEC         0x0000fffe         0x00000002
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+LOAD main.o
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a
+START GROUP
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libnosys.a
+END GROUP
+
+__interrupt_vector_1
+ *(__interrupt_vector_1)
+ *(__interrupt_vector_trapint)
+
+__interrupt_vector_2
+ *(__interrupt_vector_2)
+
+__interrupt_vector_3
+                0x0000ffe4        0x2
+ *(__interrupt_vector_3)
+ __interrupt_vector_3
+                0x0000ffe4        0x2 main.o
+ *(__interrupt_vector_port1)
+
+__interrupt_vector_4
+ *(__interrupt_vector_4)
+ *(__interrupt_vector_port2)
+
+__interrupt_vector_5
+ *(__interrupt_vector_5)
+
+__interrupt_vector_6
+ *(__interrupt_vector_6)
+ *(__interrupt_vector_adc10)
+
+__interrupt_vector_7
+ *(__interrupt_vector_7)
+ *(__interrupt_vector_usciab0tx)
+
+__interrupt_vector_8
+ *(__interrupt_vector_8)
+ *(__interrupt_vector_usciab0rx)
+
+__interrupt_vector_9
+ *(__interrupt_vector_9)
+ *(__interrupt_vector_timer0_a1)
+
+__interrupt_vector_10
+                0x0000fff2        0x2
+ *(__interrupt_vector_10)
+ __interrupt_vector_10
+                0x0000fff2        0x2 main.o
+ *(__interrupt_vector_timer0_a0)
+
+__interrupt_vector_11
+ *(__interrupt_vector_11)
+ *(__interrupt_vector_wdt)
+
+__interrupt_vector_12
+ *(__interrupt_vector_12)
+ *(__interrupt_vector_comparatora)
+
+__interrupt_vector_13
+ *(__interrupt_vector_13)
+ *(__interrupt_vector_timer1_a1)
+
+__interrupt_vector_14
+ *(__interrupt_vector_14)
+ *(__interrupt_vector_timer1_a0)
+
+__interrupt_vector_15
+ *(__interrupt_vector_15)
+ *(__interrupt_vector_nmi)
+
+__reset_vector  0x0000fffe        0x2
+ *(__interrupt_vector_16)
+ *(__interrupt_vector_reset)
+ *(.resetvec)
+ .resetvec      0x0000fffe        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+
+.rodata         0x0000c000       0x10
+                0x0000c000                . = ALIGN (0x2)
+ *(.plt)
+ *(.rodata .rodata.* .gnu.linkonce.r.* .const .const:*)
+ *(.rodata1)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ .eh_frame      0x0000c000        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .eh_frame      0x0000c000        0x4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+                0x0000c004                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000c004                PROVIDE (__preinit_array_end, .)
+                0x0000c004                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x0000c004                PROVIDE (__init_array_end, .)
+                0x0000c004                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x0000c004                PROVIDE (__fini_array_end, .)
+                0x0000c004        0x4 LONG 0x0
+ *crtbegin*.o(.ctors)
+ .ctors         0x0000c008        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000c00a        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ *crtbegin*.o(.dtors)
+ .dtors         0x0000c00c        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000c00e        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+                0x0000c00e                __DTOR_END__
+
+.text           0x0000c010      0x7b0
+                0x0000c010                . = ALIGN (0x2)
+                0x0000c010                PROVIDE (_start, .)
+ *(SORT(.crt_*))
+ .crt_0000init  0x0000c010        0xa m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+                0x0000c010                __start
+ .crt_0100bss   0x0000c01a        0xe m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+                0x0000c01a                __crt0_init_bss
+ .crt_0200movedata
+                0x0000c028       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+                0x0000c028                __crt0_movedata
+ .crt_0300main  0x0000c03c        0xa m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+                0x0000c03c                __crt0_call_init_then_main
+ .crt_0500main_init
+                0x0000c046       0x3c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+                0x0000c046                _msp430_run_init_array
+                0x0000c054                _msp430_run_preinit_array
+                0x0000c062                _msp430_run_fini_array
+ *(.lowtext .text .stub .text.* .gnu.linkonce.t.* .text:*)
+ .text          0x0000c082        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .text          0x0000c082       0xcc m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .text          0x0000c14e      0x3e4 main.o
+                0x0000c16a                delay
+                0x0000c174                doBlinks
+                0x0000c1ae                blinkTest
+                0x0000c1fc                smclkTest
+                0x0000c20a                readADC10
+                0x0000c270                checkVdd
+                0x0000c2ac                normalTrigger
+                0x0000c2f6                delayedTrigger
+                0x0000c346                main
+                0x0000c470                PORT1_ISR
+                0x0000c494                TA0Capture0_ISR
+ .text          0x0000c532        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .text.__mulhi3
+                0x0000c532       0x34 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+                0x0000c532                __mspabi_mpyi
+ .text.__mulqi3
+                0x0000c566       0x48 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+                0x0000c566                __mulqi3
+ .text.__mulsi3
+                0x0000c5ae       0x46 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+                0x0000c5ae                __mspabi_mpyl
+ .text          0x0000c5f4       0x10 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(epilogue.o)
+                0x0000c5f4                __mspabi_func_epilog_7
+                0x0000c5f6                __mspabi_func_epilog_6
+                0x0000c5f8                __mspabi_func_epilog_5
+                0x0000c5fa                __mspabi_func_epilog_4
+                0x0000c5fc                __mspabi_func_epilog_3
+                0x0000c5fe                __mspabi_func_epilog_2
+                0x0000c600                __mspabi_func_epilog_1
+ .text          0x0000c604       0x74 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(slli.o)
+                0x0000c604                __mspabi_slli_15
+                0x0000c606                __mspabi_slli_14
+                0x0000c608                __mspabi_slli_13
+                0x0000c60a                __mspabi_slli_12
+                0x0000c60c                __mspabi_slli_11
+                0x0000c60e                __mspabi_slli_10
+                0x0000c610                __mspabi_slli_9
+                0x0000c612                __mspabi_slli_8
+                0x0000c614                __mspabi_slli_7
+                0x0000c616                __mspabi_slli_6
+                0x0000c618                __mspabi_slli_5
+                0x0000c61a                __mspabi_slli_4
+                0x0000c61c                __mspabi_slli_3
+                0x0000c61e                __mspabi_slli_2
+                0x0000c620                __mspabi_slli_1
+                0x0000c628                __mspabi_slli
+                0x0000c62e                __mspabi_slll_15
+                0x0000c632                __mspabi_slll_14
+                0x0000c636                __mspabi_slll_13
+                0x0000c63a                __mspabi_slll_12
+                0x0000c63e                __mspabi_slll_11
+                0x0000c642                __mspabi_slll_10
+                0x0000c646                __mspabi_slll_9
+                0x0000c64a                __mspabi_slll_8
+                0x0000c64e                __mspabi_slll_7
+                0x0000c652                __mspabi_slll_6
+                0x0000c656                __mspabi_slll_5
+                0x0000c65a                __mspabi_slll_4
+                0x0000c65e                __mspabi_slll_3
+                0x0000c662                __mspabi_slll_2
+                0x0000c666                __mspabi_slll_1
+                0x0000c672                __mspabi_slll
+ .text          0x0000c678       0xb4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(srli.o)
+                0x0000c678                __mspabi_srli_15
+                0x0000c67c                __mspabi_srli_14
+                0x0000c680                __mspabi_srli_13
+                0x0000c684                __mspabi_srli_12
+                0x0000c688                __mspabi_srli_11
+                0x0000c68c                __mspabi_srli_10
+                0x0000c690                __mspabi_srli_9
+                0x0000c694                __mspabi_srli_8
+                0x0000c698                __mspabi_srli_7
+                0x0000c69c                __mspabi_srli_6
+                0x0000c6a0                __mspabi_srli_5
+                0x0000c6a4                __mspabi_srli_4
+                0x0000c6a8                __mspabi_srli_3
+                0x0000c6ac                __mspabi_srli_2
+                0x0000c6b0                __mspabi_srli_1
+                0x0000c6bc                __mspabi_srli
+                0x0000c6c2                __mspabi_srll_15
+                0x0000c6c8                __mspabi_srll_14
+                0x0000c6ce                __mspabi_srll_13
+                0x0000c6d4                __mspabi_srll_12
+                0x0000c6da                __mspabi_srll_11
+                0x0000c6e0                __mspabi_srll_10
+                0x0000c6e6                __mspabi_srll_9
+                0x0000c6ec                __mspabi_srll_8
+                0x0000c6f2                __mspabi_srll_7
+                0x0000c6f8                __mspabi_srll_6
+                0x0000c6fe                __mspabi_srll_5
+                0x0000c704                __mspabi_srll_4
+                0x0000c70a                __mspabi_srll_3
+                0x0000c710                __mspabi_srll_2
+                0x0000c716                __mspabi_srll_1
+                0x0000c726                __mspabi_srll
+ .text          0x0000c72c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .text          0x0000c72c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .text          0x0000c72c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .text          0x0000c72c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .text.memmove  0x0000c72c       0x44 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+                0x0000c72c                memmove
+ .text          0x0000c770        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .text.memset   0x0000c770       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+                0x0000c770                memset
+ .text          0x0000c784       0x20 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ .text          0x0000c7a4        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.interp .hash .dynsym .dynstr .gnu.version*)
+                0x0000c7a4                PROVIDE (__etext, .)
+                0x0000c7a4                PROVIDE (_etext, .)
+                0x0000c7a4                PROVIDE (etext, .)
+                0x0000c7a4                . = ALIGN (0x2)
+ *(.init)
+ .init          0x0000c7a4        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+                0x0000c7a4                __msp430_init
+ .init          0x0000c7a4        0x4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .init          0x0000c7a8        0x4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ .init          0x0000c7ac        0xa m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+                0x0000c7b6                __msp430_init_end
+ *(.fini)
+ .fini          0x0000c7b6        0x4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+                0x0000c7b6                __msp430_fini
+ .fini          0x0000c7ba        0x4 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .fini          0x0000c7be        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+                0x0000c7c0                __msp430_fini_end
+ *(.tm_clone_table)
+ .tm_clone_table
+                0x0000c7c0        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .tm_clone_table
+                0x0000c7c0        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+                0x0000c7c0                __TMC_END__
+
+.data           0x00000200        0xa load address 0x0000c7c0
+                0x00000200                . = ALIGN (0x2)
+                0x00000200                PROVIDE (__datastart, .)
+ *(.jcr)
+ .jcr           0x00000200        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .jcr           0x00000200        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ *(.data.rel.ro.local)
+ *(.data.rel.ro*)
+ *(.dynamic)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000202        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .data          0x00000202        0x2 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+                0x00000202                __dso_handle
+ .data          0x00000204        0x6 main.o
+                0x00000204                status
+                0x00000206                buttons
+                0x00000208                fclk_MHz
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(epilogue.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(slli.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(srli.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ .data          0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+ *(.gnu.linkonce.d.*personality*)
+ *(.data1)
+ *(.got.plt)
+ *(.got)
+                0x0000020a                . = ALIGN (0x2)
+ *(.sdata .sdata.* .gnu.linkonce.s.* D_2 D_1)
+                0x0000020a                . = ALIGN (0x2)
+                0x0000020a                _edata = .
+                0x0000020a                PROVIDE (edata, .)
+                0x0000020a                PROVIDE (__dataend, .)
+                0x0000c7c0                PROVIDE (__romdatastart, LOADADDR (.data))
+                0x0000000a                PROVIDE (__romdatacopysize, SIZEOF (.data))
+
+.bss            0x0000020a       0x14 load address 0x0000c7ca
+                0x0000020a                . = ALIGN (0x2)
+                0x0000020a                PROVIDE (__bssstart, .)
+ *(.dynbss)
+ *(.sbss .sbss.*)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000020a        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .bss           0x0000020a       0x12 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .bss           0x0000021c        0x0 main.o
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(epilogue.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(slli.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(srli.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ .bss           0x0000021c        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+                0x0000021c                . = ALIGN (0x2)
+ *(COMMON)
+ COMMON         0x0000021c        0x2 main.o
+                0x0000021c                value
+                0x0000021e                PROVIDE (__bssend, .)
+                0x00000014                PROVIDE (__bsssize, SIZEOF (.bss))
+
+.noinit         0x0000021e        0x0 load address 0x0000c7ca
+                0x0000021e                . = ALIGN (0x2)
+                0x0000021e                PROVIDE (__noinit_start, .)
+ *(.noinit)
+                0x0000021e                . = ALIGN (0x2)
+                0x0000021e                PROVIDE (__noinit_end, .)
+                0x0000021e                end = .
+
+.stack          0x00000400        0x0
+                0x00000400                PROVIDE (__stack, .)
+ *(.stack)
+
+.MP430.attributes
+                0x00000000      0x142
+ *(.MSP430.attributes)
+ .MSP430.attributes
+                0x00000000       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .MSP430.attributes
+                0x00000017       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+ .MSP430.attributes
+                0x0000002e       0x17 main.o
+ .MSP430.attributes
+                0x00000045       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .MSP430.attributes
+                0x0000005c       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(epilogue.o)
+ .MSP430.attributes
+                0x00000073       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(slli.o)
+ .MSP430.attributes
+                0x0000008a       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(srli.o)
+ .MSP430.attributes
+                0x000000a1       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .MSP430.attributes
+                0x000000b8       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .MSP430.attributes
+                0x000000cf       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .MSP430.attributes
+                0x000000e6       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .MSP430.attributes
+                0x000000fd       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .MSP430.attributes
+                0x00000114       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+ .MSP430.attributes
+                0x0000012b       0x17 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+ *(.gnu.attributes)
+ *(__TI_build_attributes)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x7b
+ *(.comment)
+ .comment       0x00000000       0x7b m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtbegin.o
+                                 0x7c (size before relaxing)
+ .comment       0x00000000       0x7c main.o
+ .comment       0x00000000       0x7c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .comment       0x00000000       0x7c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .comment       0x00000000       0x7c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x7c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb4
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x1c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .debug_aranges
+                0x0000001c       0x1c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_aranges
+                0x00000038       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .debug_aranges
+                0x0000004c       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .debug_aranges
+                0x00000060       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .debug_aranges
+                0x00000074       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_aranges
+                0x00000088       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000009c       0x18 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x707
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xce m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .debug_info    0x000000ce      0x140 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_info    0x0000020e       0xce m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .debug_info    0x000002dc       0xce m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .debug_info    0x000003aa       0xce m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .debug_info    0x00000478       0xf8 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_info    0x00000570       0xc9 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .debug_info    0x00000639       0xce m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+
+.debug_abbrev   0x00000000      0x204
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .debug_abbrev  0x00000012       0x7e m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_abbrev  0x00000090       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .debug_abbrev  0x000000a4       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .debug_abbrev  0x000000b8       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .debug_abbrev  0x000000cc       0x9a m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_abbrev  0x00000166       0x8c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000001f2       0x12 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+
+.debug_line     0x00000000      0x5ab
+ *(.debug_line)
+ .debug_line    0x00000000       0xfe m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .debug_line    0x000000fe       0x78 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_line    0x00000176       0x80 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_bss.o)
+ .debug_line    0x000001f6       0x8d m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_movedata.o)
+ .debug_line    0x00000283       0x7b m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libcrt.a(crt_main.o)
+ .debug_line    0x000002fe      0x113 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_line    0x00000411      0x112 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .debug_line    0x00000523       0x88 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+
+.debug_frame    0x00000000       0xd0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x8a m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_frame   0x0000008a       0x28 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_frame   0x000000b2       0x1e m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+
+.debug_str      0x00000000      0x372
+ *(.debug_str)
+ .debug_str     0x00000000      0x19c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+                                0x1c0 (size before relaxing)
+ .debug_str     0x0000019c      0x18a m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+                                0x1d1 (size before relaxing)
+ .debug_str     0x00000326       0x4c m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+                                0x1b6 (size before relaxing)
+
+.debug_loc      0x00000000      0x2d7
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x148 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_loc     0x00000148      0x130 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_loc     0x00000278       0x5f m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+/DISCARD/
+ *(.note.GNU-stack)
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430/crtend.o
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+LOAD m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a
+OUTPUT(IR_Trigger.elf elf32-msp430)
+
+.debug_ranges   0x00000000       0x44
+ .debug_ranges  0x00000000       0x14 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crt0.o
+ .debug_ranges  0x00000014       0x10 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_ranges  0x00000024        0x8 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_ranges  0x0000002c        0x8 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+ .debug_ranges  0x00000034       0x10 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430/crtn.o
+
+.debug_line.text.__mulhi3
+                0x00000000       0x56
+ .debug_line.text.__mulhi3
+                0x00000000       0x56 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+
+.debug_line.text.__mulqi3
+                0x00000000       0x56
+ .debug_line.text.__mulqi3
+                0x00000000       0x56 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+
+.debug_line.text.__mulsi3
+                0x00000000       0x56
+ .debug_line.text.__mulsi3
+                0x00000000       0x56 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+
+.debug_line_end
+                0x00000000        0x0
+ .debug_line_end
+                0x00000000        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/430\libgcc.a(lib2mul.o)
+ .debug_line_end
+                0x00000000        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+ .debug_line_end
+                0x00000000        0x0 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
+
+.debug_line.text.memmove
+                0x00000000       0x3e
+ .debug_line.text.memmove
+                0x00000000       0x3e m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memmove.o)
+
+.debug_line.text.memset
+                0x00000000       0x20
+ .debug_line.text.memset
+                0x00000000       0x20 m:/mcu/msp430_luna/msp430-gcc/bin/../lib/gcc/msp430-elf/4.9.1/../../../../msp430-elf/lib/430\libc.a(lib_a-memset.o)
